@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map-container {
+    position: relative;
+    display: flex;
+}
+
+svg {
+    height: 100vh;
+    width: 100vh;
+    transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    -o-transform:scale(0.8);
+}
+
+.land
+{
+    fill: green;
+    fill-opacity: 1;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:0.5;
+}
+
+.land:hover {
+    fill: deeppink;
+    fill-opacity: 0.6;
+}
+
+.selected {
+    fill: deeppink;
+}
+
+.oggi {
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.riga {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fattore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.fattore img {
+    width: 50px;
+    margin:  0 auto;
+}
+
+h4 {
+    margin: 0 auto;
+}
+
+.totaleGiornaliero {
+    margin: 0 auto;
+    color: limegreen;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: aqua;
+}
+
+
